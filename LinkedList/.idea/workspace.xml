@@ -8,10 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f7ddc16-e527-4c5b-9cdb-af9f835024b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedRead/cmake-build-debug/CMakeFiles/LinkedRead.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedRead/cmake-build-debug/CMakeFiles/LinkedRead.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedRead/cmake-build-debug/LinkedRead" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedRead/cmake-build-debug/LinkedRead" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedRead/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedRead/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedRead/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedRead/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedReadHard/cmake-build-debug/CMakeFiles/LinkedReadHard.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedReadHard/cmake-build-debug/CMakeFiles/LinkedReadHard.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedReadHard/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedReadHard/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedReadHard/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedReadHard/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610188016257</updated>
-      <workItem from="1610188017454" duration="1718000" />
+      <workItem from="1610188017454" duration="3829000" />
     </task>
     <servers />
   </component>

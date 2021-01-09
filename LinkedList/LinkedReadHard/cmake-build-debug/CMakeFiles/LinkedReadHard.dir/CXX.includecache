@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ihyeong-won/Desktop/Algorithm/LinkedList/LinkedReadHard/main.cpp
+iostream
+-
+stdlib.h
+-
+
