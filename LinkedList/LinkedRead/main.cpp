@@ -10,14 +10,14 @@ typedef struct _node {
 
 
 int main() {
+
     Node * head = NULL;
     Node * tail = NULL;
-    Node * cur = NULL;
-
-
+    Node * cur = NULL; //순회용 포인터
     Node * newNode = NULL;
     int readData;
     //input data
+
     while(1) {
         cout << "자연수 입력: " << endl;
         cin >> readData;
@@ -28,6 +28,7 @@ int main() {
         //노드 추가.
 
         newNode = (Node*)malloc(sizeof(Node));
+
         newNode->data = readData;
         newNode->next = NULL;
 
