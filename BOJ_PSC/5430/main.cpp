@@ -13,6 +13,8 @@ int main() {
 
     cin >> T;
 
+    char solve[100000];
+
     while(T--) {
 
 
@@ -25,7 +27,8 @@ int main() {
             arr[i] = *iter;
         }
 
-        for(int i = 0; )
+        cin
+
 
 
 
