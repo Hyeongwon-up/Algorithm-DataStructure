@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ihyeong-won/Desktop/Algorithm/programmers/42586/main.cpp
+string
+-
+vector
+-
+iostream
+-
+stack
+-
+string
+-
+vector
+-
+
