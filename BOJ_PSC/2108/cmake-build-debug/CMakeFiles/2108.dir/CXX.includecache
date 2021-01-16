@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ihyeong-won/Desktop/Algorithm/BOJ_PSC/2108/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+cmath
+-
+

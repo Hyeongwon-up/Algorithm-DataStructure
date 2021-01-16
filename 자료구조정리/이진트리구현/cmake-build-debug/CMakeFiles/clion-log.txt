@@ -1,6 +1,9 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/ihyeong-won/Desktop/Algorithm/자료구조정리/이진트리구현
-CMake Error at CMakeLists.txt:2 (project):
-  project PROJECT called with incorrect number of arguments
+CMake Error at CMakeLists.txt:6 (add_executable):
+  The target name "이진트리구현" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
 
 
 -- Configuring incomplete, errors occurred!
+See also "/Users/ihyeong-won/Desktop/Algorithm/자료구조정리/이진트리구현/cmake-build-debug/CMakeFiles/CMakeOutput.log".

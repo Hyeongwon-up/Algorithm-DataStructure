@@ -30,11 +30,19 @@
     
     - Complete Binary Tree ?
         - 모든 레벨이 꽉 찬 상태는 아니지만, 차곡차곡 빈 틈 없이 노드가 채워진 이진 트리.( 노드가 위에서 아래로, 왼쪽에서 오른쪽 순서대로)
-        
     
-    - [이진트리구현](https://github.com/Hyeongwon-up/Algorithm-DataStructure/blob/HW/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%A0%95%EB%A6%AC/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC%EA%B5%AC%ED%98%84/main.cpp){: target="_blank"}
     
-        
+    ![순회](https://user-images.githubusercontent.com/61967790/104784367-78b46d00-57cb-11eb-8fad-9f0f3d7b8775.png)
+    
+    - 이진트리의 순회
+   
+
+        - 전위순회 (Preorder Traversal) : 루트노드먼저!
+        - 중위순회 (Inorder Traversal) : 루트노드를 중간에!
+        - 후외순회 (Postorder Traversal) : 루트노드를 마지막!
+    
+    
+    - [이진트리구현(세가지 순회 함수 포함) _  use C++](https://github.com/Hyeongwon-up/Algorithm-DataStructure/blob/HW/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%A0%95%EB%A6%AC/%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC%EA%B5%AC%ED%98%84/main.cpp) 
         
         
 
