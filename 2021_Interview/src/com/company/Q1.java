@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class Q1 {
 
     public static void solution(String s) {
         char[] input = s.toCharArray();
