@@ -5,10 +5,9 @@ import java.util.Stack;
 
 public class Q1 {
 
-    public static void solution(String s) {
+    public static Stack<Character> solution(String s) {
         char[] input = s.toCharArray();
         Stack<Character> stack = new Stack<Character>();
-
 
         for(int i = 0 ; i < input.length ; i++) {
             if(!stack.empty()) {
@@ -39,7 +38,8 @@ public class Q1 {
                 stack.push(input[i]);
             }
         }
-        System.out.println("최종" +stack);
+
+        return stack;
 
     }
 
@@ -48,7 +48,8 @@ public class Q1 {
 
         String ex = in.next();
 
-        solution(ex);
+
+        System.out.println(solution(ex));
 
     }
 }

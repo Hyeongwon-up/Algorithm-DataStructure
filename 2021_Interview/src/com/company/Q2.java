@@ -3,13 +3,13 @@ package com.company;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Q2 {
 
-
+    private static int MAX = 100000000;
 
     public static Deque<Integer> MakeDeque(int num) {
+
         String input2 = Integer.toString(num);
         Deque<Integer> stack = new ArrayDeque<>();
         for(int i=0;i<input2.length();i++) {
@@ -19,14 +19,30 @@ public class Q2 {
         return stack;
     }
 
-    public static void solution(int num) {
-        Deque<Integer> TEMP = MakeDeque(num);
-        while(TEMP.isEmpty()==false) {
-            System.out.println(TEMP.peekFirst());
-            TEMP.removeFirst();
-            System.out.println(TEMP.peekLast());
-            TEMP.removeLast();
+    public static int solution(int num) {
+        System.out.println("함수호출");
+
+
+        if(num < MAX) {
+            System.out.println("success");
+            Deque<Integer> TEMP = MakeDeque(num);
+            String[] result = new String[TEMP.size()];
+            String answer = "";
+            int index =0 ;
+
+            while (TEMP.isEmpty() == false) {
+                answer += Integer.toString(TEMP.pollFirst());
+                answer += Integer.toString(TEMP.pollLast());
+            }
+
+
+            int answer2 = Integer.parseInt(answer);
+            System.out.println(answer2);
+            return answer2;
         }
+
+
+        else return -1;
     }
 
 
@@ -34,7 +50,8 @@ public class Q2 {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
 
-        solution(num);
+
+        System.out.println(solution(num));
 
     }
 }
